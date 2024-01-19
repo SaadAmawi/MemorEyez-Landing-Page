@@ -15,7 +15,7 @@ function Footer() {
         </p>
         <div className='input-areas'>
           <form>
-            <Button buttonStyle='btn--outlines'>Subscribe</Button>
+            <Button buttonStyle='btn--outlines' to={'/Signup'}>Subscribe</Button>
           </form>
         </div>
       </section>
@@ -42,11 +42,11 @@ function Footer() {
         
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to=''>Submit Video</Link>
-            <Link to=''>Ambassadors</Link>
-            <Link to=''>Agency</Link>
-            <Link to=''>Influencer</Link>
+            <h2>The Team</h2>
+            <Link to=''>Saad Amawi</Link>
+            <Link to=''>Yazan Al Asmi</Link>
+            <Link to=''>Nourhan Elmehalawy</Link>
+            <Link to=''>Bdour Babillie</Link>
           </div>
      
         </div>

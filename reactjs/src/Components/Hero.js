@@ -1,9 +1,10 @@
 
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './Hero.css';
 import {motion as m} from 'framer-motion'
+// import { Link } from 'react-router-dom';
 
   
 function HeroSection() {
@@ -27,13 +28,15 @@ function HeroSection() {
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{delay:1, duration: 0.8}}>
-        <Button hr
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
+        <a href="https://www.youtube.com/watch?v=DmhNbG4vv_k&ab_channel=Skate.Vlogs" target="_blank" rel="noreferrer">
+        <button 
+          // className='btns'
+          // buttonStyle='btn--outline'
+          // buttonSize='btn--large'
         >
           WATCH TRAILER<i className='far fa-play-circle' />
-        </Button>
+        </button>
+        </a>
         </m.div>
 
 

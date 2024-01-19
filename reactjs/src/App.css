@@ -13,31 +13,30 @@
 
 .services {
   background-image: url(Images/img-home.jpg);
-  margin: 0;
-
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
   color: #ffffff;
   font-size: 100px;
-  height:95vh;
-  border-bottom: black 2px solid;
+  height:100vh;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
   align-items: center;
   justify-content: center;
   display: flex;
   text-decoration: none;
+  
 }
 
 .about {
   background-image: url(Images/img-2.jpg);
-  margin: 0;
-  
+  z-index: 1;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-  height: 95vh;
+  height: 100vh;
 }
 
 .sign-up {
@@ -66,7 +65,7 @@
     background-repeat: no-repeat;
     color: #ffffff;
     font-size: 100px;
-    height:90vh;
+    height:100vh;
     border-bottom: black 2px solid;
     align-items: center;
     justify-content: center;
@@ -82,7 +81,7 @@
     background-repeat: no-repeat;
     color: #ffffff;
     font-size: 100px;
-    height:90vh;
+    height:100vh;
     border-bottom: black 2px solid;
     align-items: center;
     justify-content: center;

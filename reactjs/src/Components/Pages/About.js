@@ -15,6 +15,14 @@ export default function About() {
         className='apples'
 
         >
+
+<div >
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+        </div>
+
   <div className="about">
      <div className="hide"> 
     <m.h1  className="lol"
