@@ -1,0 +1,108 @@
+.Forms{
+
+    margin-top:35px ;
+    display:grid;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    padding: 50px;
+   width: fit-content;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+  border-radius: 10px;
+  
+  
+    
+}
+.Form-wrapper {
+  background-color: #242424;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.Email{
+  text-decoration: none;
+   padding-bottom: -10px;
+    
+    font-size: 21px;
+    align-items: center;
+}
+input:hover{
+  -webkit-transform: translate(0%, 0%) scale(1.1);
+box-shadow: 2px 2px rgb(153, 153, 153);
+border-radius: 10px;}
+
+.Names{
+    
+    font-size:21px;
+    align-items: center;
+   
+   
+}
+
+input {
+  text-align: center;
+  padding: 12px 200px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+}
+
+label,input{
+    display: block;
+    margin-top: -2px;
+  }
+ 
+
+
+.Submit{
+    width:100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(250, 248, 228);
+  position: relative;
+}
+
+.Submit:hover{
+
+  background-color: rgb(255, 255, 255);
+ 
+}
+@media screen and (max-width: 820px) {
+  .Forms{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    width:300px;
+    justify-content: right;
+    align-items: center;
+  }  
+  input{
+    width: 1px;
+    padding:10px 100px
+  }
+  .Submit{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+  }
+  .Forms > .Submit{
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    place-items: center;
+ }
+ 
+  }
+  

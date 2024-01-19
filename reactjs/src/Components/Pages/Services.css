@@ -1,0 +1,69 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 1;
+}
+
+.BG {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  background: linear-gradient(
+      to bottom, rgb(0 0 0/ 0.8),
+      rgba(255, 255, 255, 0.1)
+  );
+  
+}
+
+.apple{
+  position: absolute;
+  color: gray;    
+  margin-top: 0; 
+  margin-left: 0; 
+  width:100%;    
+  height: 100%;
+  background-color: #ffffff;
+ 
+}
+
+.lol{text-decoration: none;
+color: white;
+stroke:3px black;
+box-shadow: 2px solid black;
+font-size: 100px;
+
+}
+
+.singup-txt{
+  text-decoration: none;
+color: #ffffff;
+font-size: 100px;
+
+
+
+}
+
+.hide{
+padding:1px;
+color: #ef9a9a;
+overflow: hidden;}
+
+@media screen and (max-width: 960px) {
+    
+    .lol{text-decoration: none;
+        color: white;
+        stroke:3px black;
+        box-shadow: 2px solid black;
+        font-size: 60px;
+        
+        }
+  }
